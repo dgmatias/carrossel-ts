@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html, body, * {
+    font-family: 'Roboto', sans-serif;
+    /* color: whitesmoke; */
+    font-weight: lighter;
+    color: white;
+}
+  
+body {
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}    
+/* Header */
+
+nav {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    height: 15vh;
+}
+
+#logo-container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+#logo {
+    /* color: black; */
+    /* color: rgb(0, 194, 253); */
+    
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+
+
+}
+
+
+#nav-item-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 80%;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+    
+
+}
+
+.nav-item {
+    /* color: black; */    
+    font-size: 25px;
+    text-decoration: none;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+/* Main */
+
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.main-item{
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin-bottom: 10px;
+}
+
+#h1-container h1 {
+    /* color: rgb(0, 194, 253); */
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#h2-container h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#button-container button {
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    width: 200px;
+    /* background-color: rgb(0, 194, 253); */
+}
+
+#button-container button:hover {
+    /* font-weight: bold; */
+    transform: scale(1.1);
+}
